@@ -4,7 +4,7 @@ mov r0, #10
 ```
 > registrador r0 contem o numero 10 que em bits 00000000 00000000 00000000 00001010 
 
-os registradores fica em CPU direto com hardware 
+os registradores fica em CPU direto no hardware 
 existe 15 registradores
 
 | Registrador | Função |
@@ -22,6 +22,14 @@ pode usar r0 até a11 para uso geral
 
 Operadores 
 ----
+contem 3 Operadores
+
+| operador | Função |
+| -------- | ------ |
+| mov | copia e altera |
+| add | soma |
+| sub | subtrai | 
+
 
 mov copia ou altera 
 
@@ -31,10 +39,14 @@ mov r0, #1
 ```
 agora o registrador `r0` está com numero 1
 
-mas se você reutilizar esse mesmo registrador `r0` é alterar para 5
+mas se você reutilizar esse mesmo registrador `r0` e alterar para 5
 
 ```
 mov r0, #5
 ```
 
 agora o registrador `r0` vai ficar com numero 5
+
+---
+
+
