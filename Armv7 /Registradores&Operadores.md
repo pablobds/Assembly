@@ -35,7 +35,6 @@ contem 3 Operadores
 
 mov copia ou altera 
 
-exemplos 
 ```
 mov r0, #1
 ```
@@ -48,6 +47,17 @@ mov r0, #5
 ```
 
 agora o registrador `r0` vai ficar com numero 5
+
+
+copia funcionária da seguinte forma se você utilizar o `r0` para copia e colocar no `r1`
+
+ficaria assim 
+```
+mov r0, r1
+```
+
+agora o `r0` e `r1` está com numero 5 
+
 
 - Add
 
@@ -72,6 +82,26 @@ add r0, r1, r2
 > 5 + 5 = 10
 
 agora a soma foi feita temos `r2` com a soma final de numero 10
+
+
+- sub
+
+para subtrair, vamos fazer 10 - 5 = 5
+primeiro vamos registrar
+
+```
+mov r0, #10
+mov r1, #5
+```
+
+agora vamos subtrair 
+
+```
+sub r0, r1, r2
+```
+> 10 - 5 = 5
+
+agora o `r2` está com resultado de numero 5
 
 ---
 
