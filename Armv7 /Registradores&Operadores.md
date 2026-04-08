@@ -32,6 +32,7 @@ contem 3 Operadores
 
 
 - Mov
+
 mov copia ou altera 
 
 exemplos 
@@ -66,9 +67,11 @@ vamos fazer uma soma entre eles
 e utilizar o `r2` para o resultado
 
 ```
-add r0, r1, `r2`
+add r0, r1, r2
 ```
-agora a soma foi feita temos r2 com a soma final de numero 10
+> 5 + 5 = 10
+
+agora a soma foi feita temos `r2` com a soma final de numero 10
 
 ---
 
