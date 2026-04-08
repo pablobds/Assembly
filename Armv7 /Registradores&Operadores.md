@@ -77,7 +77,7 @@ vamos fazer uma soma entre eles
 e utilizar o `r2` para o resultado
 
 ```
-add r0, r1, r2
+add r2, r0, r1
 ```
 > 5 + 5 = 10
 
@@ -97,7 +97,7 @@ mov r1, #5
 agora vamos subtrair 
 
 ```
-sub r0, r1, r2
+sub r2, r0, r1
 ```
 > 10 - 5 = 5
 
